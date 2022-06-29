@@ -14,13 +14,12 @@ int main() {
 
 	int line = 0;
 	while (1) {
-		if (FirstNum_Of_Line(line) > x) {
-			line = line - 1;
+		if (FirstNum_Of_Line(line) >= x) {
 			break;
 		}
 		line++;
 	}
-	printf("%d", line);
+	printf("%d", line+1);
 
 	return 0;
 }

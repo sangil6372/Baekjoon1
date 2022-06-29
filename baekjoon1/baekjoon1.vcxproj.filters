@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="백준알고리즘.c">
+    <ClCompile Include="백준2292.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
